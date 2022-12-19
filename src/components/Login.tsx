@@ -65,6 +65,10 @@ export const Login = () => {
         })
     }
 
+    const logout = () => {
+        dispatch({ type: 'logout' });
+    }
+
     if (validando) {
         return (
             <>
